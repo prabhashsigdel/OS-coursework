@@ -1,0 +1,23 @@
+# build artifacts
+*.o
+*.tmp
+*.log
+
+# task binaries
+task1_threads/task1
+task2_paging/paging
+task3_filesec/task3
+task4_network/server
+task4_network/client
+
+# task 3 runtime data (created on first run)
+task3_filesec/store/
+task3_filesec/users.txt
+task3_filesec/filemeta.txt
+task3_filesec/audit.log
+
+# editor / OS junk
+*~
+.DS_Store
+
+screenshots/
